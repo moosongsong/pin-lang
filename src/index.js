@@ -18,7 +18,7 @@ const { GH_TOKEN, GIST_ID, USERNAME, DAYS } = process.env;
 
     const api = new ApiClient(GH_TOKEN);
     const username = USERNAME;
-    const days = 365;
+    const days = 1000;
 
     console.log(`username is ${username}.`);
     console.log(`\n`);
